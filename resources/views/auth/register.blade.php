@@ -1,5 +1,6 @@
 <x-guest-layout>
     <form method="POST" action="{{ route('register') }}">
+        You can register your self for first time here:
         @csrf
 
         <!-- Name -->
